@@ -44,6 +44,9 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util.js';
     filterImageFromURL(req.query.image_url).then((resolve) => {
       // send the resulting file in the response
       return res.status(200).sendFile(resolve)
+    }).catch((error) => {
+      // send error in the response
+      return res.status(500).send(`Internal server error: ${error}`)
     }).finally((resolve) => {
       if (resolve) {
         // deletes any files on the server on finish of the response
