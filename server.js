@@ -38,7 +38,7 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util.js';
 
     // validate the image_url query
     if (result.errors.length > 0) {
-      return res.status(400).send(result.errors[0].msg);
+      return res.status(400).send(`${result.errors[0].msg} on image_url query paramater.`);
     } 
     // call filterImageFromURL(image_url) to filter the image
     filterImageFromURL(req.query.image_url).then((resolve) => {
