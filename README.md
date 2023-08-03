@@ -31,3 +31,6 @@
     http://cd12099-full-stack-apps-aws-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://blog.logrocket.com/wp-content/uploads/2020/09/documenting-express-js-api-swagger.png
     ![image](https://github.com/nthduc95/cd12099-Full-Stack-Apps-AWS/assets/119287881/3f3eace3-976f-442b-8dbe-2b98459765c0)
 
+    http://cd12099-full-stack-apps-aws-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
+    ![image](https://github.com/nthduc95/cd12099-Full-Stack-Apps-AWS/assets/119287881/8947eea7-503c-454f-ba88-e97902350b08)
+
